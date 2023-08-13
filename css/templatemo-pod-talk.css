@@ -619,6 +619,14 @@ main {
   padding-bottom: 0;
 }
 
+.custom-block-info h5 {
+  color: var(--primary-color);
+}
+
+.custom-block-info h5:hover {
+  color: var(--secondary-color);
+}
+
 .custom-block-image-wrap {
   position: relative;
   display: block;
@@ -635,6 +643,17 @@ main {
   width: 112px;
   height: 112px;
   object-fit: cover;
+}
+
+.btn-success {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn-success:hover {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .custom-block-image-detail-page .custom-block-image {
